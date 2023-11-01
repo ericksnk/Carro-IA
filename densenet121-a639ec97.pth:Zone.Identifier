@@ -1,4 +1,0 @@
-[ZoneTransfer]
-ZoneId=3
-ReferrerUrl=https://github.com/OlafenwaMoses/ImageAI/tree/master/imageai/Classification
-HostUrl=https://objects.githubusercontent.com/github-production-release-asset-2e65be/125932201/3a2abd78-26cc-46ba-b38e-cde02881538d?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231010%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231010T170143Z&X-Amz-Expires=300&X-Amz-Signature=3d4b28eec05634f5f1ba3d0b44b38e738b592977914e645bb39afd1a33ba0568&X-Amz-SignedHeaders=host&actor_id=67835383&key_id=0&repo_id=125932201&response-content-disposition=attachment%3B%20filename%3Ddensenet121-a639ec97.pth&response-content-type=application%2Foctet-stream
