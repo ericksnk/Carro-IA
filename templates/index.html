@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= "stylesheet" type= "text/css" href= "/static/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>CARCHORRO</title>
+</head>
+<body>
+    <div id="titulo">
+        <h1 id="car">CAR</h1>
+        <h1 id="chorro">CHORRO</h1>
+    </div>
+    
+
+    <div class="input">
+        <img id="imgPreview" src="" height="375px">
+    </div>
+
+    <div id="previsoes">
+        <p id="p1"></p>
+        <p id="p2"></p>
+        <p id="p3"></p>
+    </div>
+
+    <div class="input">
+        <label for="fileInput" class="btn">Selecione uma imagem</label>
+        <input type="file" id="fileInput" style="display: none;"/>
+        <button class="btn" onclick="enviarImagem()">Processar</button>
+
+    </div>
+    
+
+    <script src="/static/scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+:root {
+    --background: rgb(43, 43, 43);
+    --texto: lightgray;
+    --borda: lightgray;
+    --car: silver;
+    --chorro: gold;
+    color: tan;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+body{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: var(--background);
+}
+
+h1{
+    display: inline;
+    font-size: 70px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    color: black;
+}
+
+h2{
+    font-size: 35px;
+}
+
+p{
+    font-size: 20px;
+}
+
+img{
+    margin: 2rem;
+}
+
+.btn{
+    border: 2px solid var(--borda);
+    cursor: pointer;
+    padding: 25px 30px;
+    border-radius: 1rem 1rem 1rem 1rem;
+    min-height: 40px;
+    min-width: 400px;
+    margin: 1.5rem;
+    font-size: 24px;
+    background-color: var(--background);    
+    color: var(--texto);
+}
+
+#previsoes{
+    color: var(--texto);
+}
+
+#titulo{
+    display: flex;
+    justify-content: center;
+}
+
+#car{
+    color: var(--car);
+}
+
+#chorro{
+    color: var(--chorro);
+}
+
+#imgPreview{
+    border-radius: 1rem 1rem 1rem 1rem;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+}
