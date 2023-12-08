@@ -22,11 +22,14 @@ def upload():
 
     recebidos = ia.previsao(imagem.filename)
 
-    print(recebidos)
+    #print(recebidos)
 
     os.remove(os.path.join(diretorio_img, imagem.filename))
     
-    return jsonify({'message': 'Imagem recebida e salva com sucesso', 'teste': recebidos}), 200
+    if(recebidos == -1):
+        return jsonify({'message': 'Erro no processamento do arquivo', 'teste': recebidos}), 300
+    else:
+        return jsonify({'message': 'Imagem recebida e salva com sucesso', 'teste': recebidos}), 200
 
 
 

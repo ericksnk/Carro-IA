@@ -26,45 +26,42 @@ body{
     flex-direction: column;
     width: 100vw;
     margin: 0 auto;
-    padding: 2rem;
+    padding: 1rem;
     background-color: var(--background);
 }
 
 h1{
     display: inline;
-    font-size: 70px;
+    font-size: 9vh;
     font-family: 'Oswald', sans-serif;
     font-weight: 600;
     color: black;
 }
 
-h2{
-    font-size: 35px;
-}
-
 p{
-    font-size: 20px;
+    font-size: 2.7vh;
 }
 
 img{
-    margin: 2rem;
+    margin: 1rem;
 }
 
 .btn{
     border: 2px solid var(--borda);
     cursor: pointer;
-    padding: 25px 30px;
+    padding: 3.5vh 3.5vw;
     border-radius: 1rem 1rem 1rem 1rem;
-    min-height: 40px;
-    min-width: 400px;
+    min-height: 10vh;
+    min-width: 27vw;
     margin: 1.5rem;
-    font-size: 24px;
+    font-size: 3vh;
     background-color: var(--background);    
     color: var(--texto);
 }
 
 #previsoes{
     color: var(--texto);
+    margin: 0.5rem;
 }
 
 #titulo{
@@ -82,6 +79,12 @@ img{
 
 #imgPreview{
     border-radius: 1rem 1rem 1rem 1rem;
+    height: 40vh;
+}
+
+#aviso{
+    color: red;
+    font-size: 30px;
 }
 
 .input{

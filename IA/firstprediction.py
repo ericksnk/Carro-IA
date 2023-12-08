@@ -5,7 +5,7 @@ import os
 image_path = os.getcwd() + "\images"
 execution_path = os.getcwd() + "\IA\BancoDeImagens\models"
 
-model = "densenet121-BancoDeImagens-test_acc_0.64667_epoch-4.pt"
+model = "densenet121-BancoDeImagens-test_acc_0.87747_epoch-3.pt"
 json_model = "BancoDeImagens_model_classes.json"
 
 prediction = CustomImageClassification()
@@ -17,7 +17,10 @@ prediction.loadModel()
 def previsao(image_name):
     text = []
 
-    predictions, probabilities = prediction.classifyImage(os.path.join(image_path, image_name), result_count=3 )
+    try:
+        predictions, probabilities = prediction.classifyImage(os.path.join(image_path, image_name), result_count=3 )
+    except:
+        return -1
     for eachPrediction, eachProbability in zip(predictions, probabilities):
         predict = str(eachPrediction)
         probability = str(round(eachProbability, 2))

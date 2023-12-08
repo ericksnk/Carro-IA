@@ -17,10 +17,11 @@
     
 
     <div class="input">
-        <img id="imgPreview" src="" height="375px">
+        <img id="imgPreview" src="" height="100px">
     </div>
 
     <div id="previsoes">
+        <p id="aviso"></p>
         <p id="p1"></p>
         <p id="p2"></p>
         <p id="p3"></p>
@@ -28,11 +29,9 @@
 
     <div class="input">
         <label for="fileInput" class="btn">Selecione uma imagem</label>
-        <input type="file" id="fileInput" style="display: none;"/>
+        <input type="file" id="fileInput" style="display: none;" accept="image/*"/>
         <button class="btn" onclick="enviarImagem()">Processar</button>
-
     </div>
-    
 
     <script src="/static/scripts.js"></script>
 </body>
